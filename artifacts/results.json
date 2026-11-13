@@ -1,0 +1,133 @@
+{
+  "baseUrl": "https://the-internet.herokuapp.com",
+  "finishedAt": "2026-11-13T08:01:26.802Z",
+  "passed": 7,
+  "failed": 0,
+  "total": 7,
+  "results": [
+    {
+      "number": 1,
+      "title": "A/B testimine",
+      "status": "PASS",
+      "details": {
+        "url": "https://the-internet.herokuapp.com/abtest",
+        "heading": "A/B Test Control"
+      },
+      "screenshot": "artifacts/01-abtest.png",
+      "startedAt": "2026-11-13T08:01:22.194Z",
+      "durationMs": 2438
+    },
+    {
+      "number": 2,
+      "title": "Lisa/eemalda elemendid",
+      "status": "PASS",
+      "details": {
+        "added": 2,
+        "afterRemove": 1
+      },
+      "screenshot": "artifacts/02-add-remove-elements.png",
+      "startedAt": "2026-11-13T08:01:24.641Z",
+      "durationMs": 359
+    },
+    {
+      "number": 3,
+      "title": "Katkised pildid",
+      "status": "PASS",
+      "details": {
+        "total": 4,
+        "broken": 2,
+        "images": [
+          {
+            "src": "/img/forkme_right_sauce.svg",
+            "complete": true,
+            "naturalWidth": 149,
+            "naturalHeight": 149,
+            "broken": false
+          },
+          {
+            "src": "asdf.jpg",
+            "complete": true,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "broken": true
+          },
+          {
+            "src": "hjkl.jpg",
+            "complete": true,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "broken": true
+          },
+          {
+            "src": "img/avatar-blank.jpg",
+            "complete": true,
+            "naturalWidth": 160,
+            "naturalHeight": 160,
+            "broken": false
+          }
+        ]
+      },
+      "screenshot": "artifacts/03-broken-images.png",
+      "startedAt": "2026-11-13T08:01:25.009Z",
+      "durationMs": 436
+    },
+    {
+      "number": 4,
+      "title": "Checkboxes",
+      "status": "PASS",
+      "details": {
+        "total": 2,
+        "checked": [
+          true,
+          true
+        ]
+      },
+      "screenshot": "artifacts/04-checkboxes.png",
+      "startedAt": "2026-11-13T08:01:25.454Z",
+      "durationMs": 292
+    },
+    {
+      "number": 5,
+      "title": "Kontekstimenüü",
+      "status": "PASS",
+      "details": {
+        "message": "You selected a context menu",
+        "accepted": true
+      },
+      "screenshot": "artifacts/05-context-menu.png",
+      "startedAt": "2026-11-13T08:01:25.755Z",
+      "durationMs": 394
+    },
+    {
+      "number": 6,
+      "title": "Loe elemendid",
+      "status": "PASS",
+      "details": {
+        "count": 5,
+        "items": [
+          "Home",
+          "About",
+          "Contact Us",
+          "Portfolio",
+          "Gallery"
+        ]
+      },
+      "screenshot": "artifacts/06-disappearing-elements.png",
+      "startedAt": "2026-11-13T08:01:26.159Z",
+      "durationMs": 272
+    },
+    {
+      "number": 7,
+      "title": "Dropdown (rippmenüü)",
+      "status": "PASS",
+      "details": {
+        "value": "2",
+        "text": "Option 2",
+        "selectedIndex": 2
+      },
+      "screenshot": "artifacts/07-dropdown.png",
+      "startedAt": "2026-11-13T08:01:26.440Z",
+      "durationMs": 302
+    }
+  ]
+}
